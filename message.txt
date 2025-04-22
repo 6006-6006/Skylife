@@ -1,13 +1,5 @@
---[[                                                                                                                                                                                                                                                                                                                                                                                                            dont worry i wont put malware here its just the f3x script :p
- CCC                                                          d              11             333  
-C                                                             d             111                3 
-C        rrr     eee      ss      ccc     eee     nnn       ddd     ooo      11              33  
-C        r       e e      s      c        e e     n  n     d  d     o o      11      ..        3 
- CCC     r       ee      ss       ccc     ee      n  n      ddd     ooo     11l1     ..     333  
-                                                                                                                                                                                                                                                    
-]]                       
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Crescendo V1.3", GrapeTheme)
+                       local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Skylife V1.3", GrapeTheme)
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("UI made by Princelion33")
 local Section = Tab:NewSection("Scripthub made by kool.dud on discord")
@@ -20,10 +12,10 @@ Section:NewButton("My discord server", "", function()
    setclipboard("https://discord.gg/rJUfh9HhvN")
 end)
 Section:NewButton("My Youtube Channel", "", function()
-   setclipboard("https://www.youtube.com/@SolairNuker")
+   setclipboard("https://www.youtube.com/@jxzsploit")
 end)
 Section:NewButton("My Github", "", function()
-   setclipboard("https://github.com/Calamari-cc")
+   setclipboard("https://github.com/6006-6006")
 end)
 Section:NewButton("Roblox Executors list", "", function()
    setclipboard("https://discord.gg/rJUfh9HhvN")
@@ -32,7 +24,7 @@ Section:NewButton("Roblox Executors list", "", function()
 	   
    end
    game:GetService("StarterGui"):SetCore("SendNotification", {
-	   Title = "Crescendo ❤️",
+	   Title = "skylife❤️",
 	   Text = "Password for pastebin: exefeb2025",
 	   Icon = "",
 	   Duration = 5,
@@ -196,6 +188,9 @@ Section:NewButton("Infinite Yield", "FE IY", function()
 end)
 Section:NewButton("Nameless Admin", "FE NA", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+end)
+Section:NewButton("Fe invis", "FE invis", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
 end)
 Section:NewButton("R15 To R6", "makes anims r6 so not really r6 rig", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua'))()
