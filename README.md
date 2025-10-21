@@ -38,6 +38,8 @@ Xeno
 
 Delta
 
+Vega X
+
 (More executors are there but idk)
 
 
@@ -56,3 +58,5 @@ Standard Lua functions like getgenv, setclipboard, etc.
 Disclaimer
 
 Skyline does not host or own any third-party scripts included in the hub. All credit goes to the original creators
+
+Y'all I forgot it's not called skyline but I ain't editing allat
