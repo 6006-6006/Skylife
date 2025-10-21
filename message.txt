@@ -2,14 +2,14 @@
 local Window = Library.CreateLib("Skylife V1.4", GrapeTheme)
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("UI made by Princelion33")
-local Section = Tab:NewSection("Scripthub made by kool.dud on discord")
-local Section = Tab:NewSection("Love from kool.dud :3 ❤️")
+local Section = Tab:NewSection("Scripthub made by enneated on discord")
+local Section = Tab:NewSection("Love from enneated :3 ❤️")
 --If you're here to change the keybind the code for it is Enum.Keycode.F
 Section:NewKeybind("Ui Toggle", "", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
 Section:NewButton("My discord server", "", function()
-   setclipboard("https://discord.gg/DnB4HvmBcE")
+   setclipboard("https://discord.gg/DnB4HvmBcE (new invite soon twin 😍) ")
 end)
 Section:NewButton("My Youtube Channel", "", function()
    setclipboard("https://www.youtube.com/@xyzastrology")
@@ -25,7 +25,7 @@ Section:NewButton("Roblox Executors list", "", function()
    end
    game:GetService("StarterGui"):SetCore("SendNotification", {
 	   Title = "skylife❤️",
-	   Text = "Password for pastebin: exefeb2025",
+	   Text = "Password for pastebin: exefeb2025 I think",
 	   Icon = "",
 	   Duration = 5,
 	   Callback = Callback,
@@ -43,6 +43,8 @@ Section:NewLabel("Username: " .. username)
 Section:NewLabel("Executor: " .. executor)
 
 local Tab = Window:NewTab("Changelog")
+local Section = Tab:NewSection("V1.5 changelog")
+local Section = Tab:NewSection("went and changed the links 😁")
 local Section = Tab:NewSection("V1.4 changelog")
 local Section = Tab:NewSection("Finally got round to updating the links!")
 local Section = Tab:NewSection("Added melonscripter r6 animation gui")
@@ -935,4 +937,5 @@ print("C                                                             d          
 print("C        rrr     eee      ss      ccc     eee     nnn       ddd     ooo      11              33  ")
 print("C        r       e e      s      c        e e     n  n     d  d     o o      11      ..        3 ")
 print(" CCC     r       ee      ss       ccc     ee      n  n      ddd     ooo     11l1     ..     333  ")
+
 
